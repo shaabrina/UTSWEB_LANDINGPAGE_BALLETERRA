@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poly:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: M+PLUS+1p !important;
+}
+
+.background-balleterra {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 212,5vh;
+    height: 70vw;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff4a;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 1rem 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    header .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    header .nav-links li {
+    list-style: none;
+    margin-left: 2rem;
+    }
+    
+    header .nav-links li a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    }
+    
+    header .nav-links li a:hover {
+    color: #e7aaaa;
+    }
+    
+    header .nav-links li:last-child {
+    margin-right: 2rem;
+    }
+
+.balleterra {
+    color: #FFF;
+    font-family: Pacifico;
+    width: 100%; /* Lebar container */
+    margin-top: 250px;
+    display: flex;
+    justify-content: center; /* Untuk mengatur teks di tengah horizontal */
+    align-items: center; /* Untuk mengatur teks di tengah vertikal */
+    text-align: center;
+    font-size: 85px; 
+    line-height: 1.5;
+}
+
+.balleterra-2 {
+    color: #FFF;
+    font-family: Poly;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.background-pink {
+    background-color: #F1D3CB;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 212,5vh;
+    height: 180vw;
+    margin: 0;
+}
+
+.About {
+    color: #c57e7e;
+    font-family: M+PLUS+1p;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10rem;
+}
+
+.text-about {
+    color: #c57e7e;
+    font-family: Cambria;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2rem;
+}
+
+.course {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    margin-top: 12rem;
+    padding-bottom: 10rem;
+    }
+    
+    .course-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    }
+    
+    .course-wrapper .course-items-2 {
+    padding-top: 5rem;
+    }
+    
+    .course-wrapper .course-items-1,
+    .course-wrapper .course-items-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+    
+    .course-wrapper .course-items-1 img,
+    .course-wrapper .course-items-2 img {
+    width: 200px;
+    }
+    
+    .course-wrapper .course-items-1 .course-item,
+    .course-wrapper .course-items-2 .course-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    /* smooth shadow */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .course-wrapper .course-items-1 .course-item:hover,
+    .course-wrapper .course-items-2 .course-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .course .course-left h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #c57e7e;
+    margin-bottom: 1rem;
+    }
+    
+    .course .course-left p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #c57e7e;
+    }
+
+.performance {
+    color: #c57e7e;
+    font-family: M+PLUS+1p;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.contact {
+    padding: 5rem;
+    }
+    
+    .contact h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #c57e7e;
+    margin-bottom: 2rem;
+    text-align: center;
+    }
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    
+    form input {
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #13111A;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    form input:focus {
+    border: 1px solid #c57e7e;
+    }
+    
+    form textarea {
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color:  #c57e7e;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    form textarea:focus {
+    border: 1px solid #c57e7e;
+    }
+
+    .btn-primary{
+    background-color: #c57e7e;
+    color: #ffffff;
+    order: 1px solid #8b5656;
+    }
+
+.copyright {
+    text-align: center;
+}
